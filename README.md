@@ -37,4 +37,14 @@ based on tiangolo/uwsgi-nginx:python3.6-alpine3.8
     
 - To start a testing project. It runs a default 'welcome to django' project. \
  `docker run --name myapp-con -d  -p ::80  liqiaowei/docker-drf:py3.6-alpine3.8`
+ 
+- To run a shell script before starting supervisord, you could write a script named `prestart.sh` and put it in \ 
+the same directory as `manage.py` and do something inside.
+```
+#! /bin/sh
+
+pip install --upgrade pip -r /opt/django/app/my_requirements.txt
+pip install requests
+rm -rf ~/.cache/pip 
+```
     

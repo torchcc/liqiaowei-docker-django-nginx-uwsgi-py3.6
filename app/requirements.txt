@@ -19,7 +19,7 @@ redis==3.3.7
 requests==2.22.0
 sentry-sdk==0.11.1
 six==1.12.0
-urllib3==1.25.3
+urllib3==1.26.5
 wechatpy==1.7.6
 xmltodict==0.12.0
 yunpian-python-sdk==1.0.0

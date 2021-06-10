@@ -3,7 +3,7 @@ cffi==1.12.3
 PyCrypto==2.6.1
 certifi==2019.6.16
 chardet==3.0.4
-Django==1.11.23
+Django==2.2.24
 django-cache-machine==1.1.0
 djangorestframework==3.9.3
 django-qiniu-storage==2.3.1

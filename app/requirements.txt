@@ -1,7 +1,7 @@
 asn1crypto==0.24.0
 cffi==1.12.3
 PyCrypto==2.6.1
-certifi==2019.6.16
+certifi==2022.12.7
 chardet==3.0.4
 Django==1.11.23
 django-cache-machine==1.1.0
